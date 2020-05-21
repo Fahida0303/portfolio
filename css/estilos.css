@@ -1,1 +1,20 @@
-.portafolio
+body {
+    font-family:'source sans pro',sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'fjalla one';
+}
+.project-details {
+    width: 500px;
+}
+
+.project-imaContainer {
+    width: 500px;
+    background-image: url(left);
+}
