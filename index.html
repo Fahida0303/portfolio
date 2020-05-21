@@ -4,63 +4,66 @@
     <head>
         <title>Leonidas Esteban</title>
         <link rel="icono" type="images/png" hrf="favicom.png"/>
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
-    <body>
+    <body class="body">
         <figure>
             <img src="images/logo.png" alt="logo de http://leonidasesteban.com">
         </figure>
-        <header>
-            <nav>
+        <header class="header">
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#portafolio"> portafolio</a>
+                        <a class="link" href="./portafolio/index.html"> portafolio</a>
                     </li>
                     <li>
-                        <a href="#eventos">experiencia</a>
+                        <a class="link" href="#eventos">experiencia</a>
                     </li>
                     <li>
-                        <a href="#contacto">trabajamos juntos</a>
+                        <a class="link" href="#contacto">trabajamos juntos</a>
                     </li>
                 </ol>
             </nav>
         </header>
-        <section>
+        <section class="hero">
             <h1>
                 Hola! soy <strong>Leonidas Esteban</strong> Desarrollador <br> <strong>Javascript</strong> con <br> por la enseñanza 
-            </h1>
-                <section> seccion de portafolio</section>
-                  <section>seccion de experiensia</section>
-                  <section>  seccion de contactos</section>    
+            </h1>   
         </section>
-           <img> <a href="https://imgur.com/HiNRgbs"><img src="https://i.imgur.com/HiNRgbs.jpg" title="source: imgur.com"  alt="imagen principal del sitio" width="400px" height="300px"></a>
-           <section id="portafolio">
+        <figure class="logo">
+            <img> <a href="https://imgur.com/HiNRgbs"><img src="https://i.imgur.com/HiNRgbs.jpg" title="source: imgur.com"  alt="imagen principal del sitio" width="400px" height="300px"></a>
+        </figure>
+           <section id="portafolio" class="portfilo">
                <h2>Portafolio (proyecto destacados)</h2>
-                   <article>
-                    <h3>platzi video</h3>
-                    <h6>React Native/React</h6>
-                    <p><small><strong>Fecha:</strong>01/07/2018</small></p>
-                    <p><small><strong>puedes verlo en:</strong> www.platzi.com.native</small></p>
+                   <article class="project">
+                    <h3 class="project-titel"></h3>platzi video</h3>
+                    <h6 class="project-cours">React Native/React</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong>01/07/2018</small></p>
+                    <p class="project-description"><small><strong>puedes verlo en:</strong> www.platzi.com.native</small></p>
                     <p>Platzi viedo fue el resulado de 3 mese de trabajo para crear la mejor app para enseñar el funcionamiento de Reat y Reat Native. Desde crear una vista detallada, hasta patrones avanzados denavegacion, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
-                        <img>  <a href="https://imgur.com/9E8BVV2"><img src="https://i.imgur.com/9E8BVV2.png" title="source: imgur.com" width="400px"></a> 
+                    <figure class="project-imageContainer"> 
+                        <img class="project-image"> <a href="https://imgur.com/9E8BVV2"><img src="https://i.imgur.com/9E8BVV2.png" title="source: imgur.com" width="400px"></a> 
+                    </figure>
                 </article>
            </section>
-           <section id="eventos">
+           <section id="eventos" >
                <h2>Mas sobre mi experiencia</h2>
-                  <article>
-                      <figure>
-                          <img> <a href="https://imgur.com/JBlQvkd"><img src="https://i.imgur.com/JBlQvkd.jpg" title="source: imgur.com" alt="" width="500px" height="400px"></a> 
+                  <article class="event">
+                      <figure clases="event-imageContainer">
+                          <img class="event-images"> <a href="https://imgur.com/JBlQvkd"><img src="https://i.imgur.com/JBlQvkd.jpg" title="source: imgur.com" alt="" width="500px" height="400px"></a> 
                       </figure>
-                   <h4>PlatziConf Mexico 2018</h4>
-                   <p>El evento mas grande para gente que quiere aprender mas de internet. En este evento te comparto como tener una vida de constante aprendizaje</p>
-                    <a>Ver platica</a>
-                     <section id="contacto">
-                     <form action="/suscripcion/">
+                   <h4 class="event-title">PlatziConf Mexico 2018</h4>
+                   <p class="ivent-description ">El evento mas grande para gente que quiere aprender mas de internet. En este evento te comparto como tener una vida de constante aprendizaje</p>
+                    <a class="description-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0&t=8s" target="_blank">ver platica</a>
+                    <h4>¿Trabajamos juntos?</h4>
+                     <section id="contacto" class="contact">
+                     <form action="/suscripcion/" class="from-email">
                         <input type="text" placeholder="Dejame tu email" >
                         <input type="submit" value="texto del boton">
                         <button>enviar</button>
                      </form>
                     </section>
            </section>
-            <footer>footer</footer>
+            <footer class="footer">footer</footer>
     </body>
 </html>
